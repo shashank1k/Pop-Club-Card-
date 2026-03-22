@@ -59,6 +59,7 @@ export const POPshopSection: React.FC = () => {
 
       <div 
         ref={arrowRef}
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         className="fixed bottom-8 right-8 w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(147,51,234,0.5)] z-50 cursor-pointer hover:rotate-[20deg] transition-transform"
       >
         <ArrowUp className="text-white" size={24} />
