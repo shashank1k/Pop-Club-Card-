@@ -22,7 +22,7 @@ export const BenefitsGrid: React.FC = () => {
               <img 
                 src="https://popclub.co/middle-coin.png" 
                 alt="POPcoin" 
-                className="w-full h-full object-contain shadow-[0_0_16px_4px_rgba(255,92,92,0.35)]"
+                className="w-full h-full object-contain"
                 referrerPolicy="no-referrer"
               />
             </div>

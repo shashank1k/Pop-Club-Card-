@@ -13,7 +13,7 @@ const brands = [
   },
   { 
     name: 'curefit', 
-    color: 'bg-zinc-900', 
+    color: 'bg-white', 
     logo: 'https://popclub.co/brand-curefit.png' 
   },
   { 

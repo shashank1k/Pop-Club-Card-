@@ -31,11 +31,11 @@ export const HeroSection: React.FC = () => {
       <div className="w-full max-w-[1000px] flex flex-col md:flex-row items-center justify-center gap-12 md:gap-20">
         
         {/* Left: Angled Credit Card */}
-        <div className="relative w-[400px] h-[500px] md:w-[320px] md:h-[200px] shrink-0">
-          <img 
+        <div className="relative w-[700px] h-[900px] md:w-[320px] md:h-[200px] shrink-0">
+         <img 
             src="https://popclub.co/_next/image?url=%2Fnew-mobile-hero.png&w=1920&q=75" 
             alt="YES BANK POPclub Credit Card" 
-            className="w-full h-full object-contain transform-gpu"
+            className="w-full h-full object-contain transform-gpu scale-250 md:scale-250 mt-18 md:mt-18"
             referrerPolicy="no-referrer"
           />
           {/* Reflection/Glow under card */}
@@ -54,14 +54,14 @@ export const HeroSection: React.FC = () => {
               ref={coinLeftRef}
               src="https://popclub.co/middle-coin.png" 
               alt="POPcoin" 
-              className="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 w-12 md:w-16 h-12 md:h-16 object-contain shadow-[0_0_16px_4px_rgba(255,92,92,0.35)] z-20"
+              className="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 w-12 md:w-16 h-12 md:h-16 object-contain z-20"
               referrerPolicy="no-referrer"
             />
             <img 
               ref={coinRightRef}
               src="https://popclub.co/middle-coin.png" 
               alt="POPcoin" 
-              className="absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 w-12 md:w-16 h-12 md:h-16 object-contain shadow-[0_0_16px_4px_rgba(255,92,92,0.35)] z-20"
+              className="absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 w-12 md:w-16 h-12 md:h-16 object-contain"
               referrerPolicy="no-referrer"
             />
 
@@ -84,7 +84,7 @@ export const HeroSection: React.FC = () => {
               ref={coinFloatRef}
               src="https://popclub.co/middle-coin.png" 
               alt="POPcoin" 
-              className="absolute -bottom-6 -right-6 w-16 md:w-20 h-16 md:h-20 object-contain shadow-[0_0_20px_6px_rgba(255,92,92,0.4)] z-30"
+              className="absolute -bottom-6 -right-6 w-16 md:w-20 h-16 md:h-20 object-contain z-30"
               referrerPolicy="no-referrer"
             />
           </div>
@@ -96,7 +96,7 @@ export const HeroSection: React.FC = () => {
         <img 
           src="https://popclub.co/middle-coin.png" 
           alt="POPcoin" 
-          className="w-5 h-5 object-contain shadow-[0_0_10px_rgba(255,92,92,0.3)]"
+          className="w-5 h-5 object-contain"
           referrerPolicy="no-referrer"
         />
         <span className="text-white text-sm md:text-base font-bold tracking-tight">1 POPcoin = ₹1</span>

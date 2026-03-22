@@ -48,7 +48,7 @@ export const CreditCard3DAnimation: React.FC = () => {
     >
       <div 
         ref={cardRef}
-        className="relative w-[400px] md:w-[600px] aspect-[1.6/1] overflow-visible transform-gpu"
+        className="relative w-[1000px] md:w-[1400px] aspect-[1.6/1] overflow-visible transform-gpu"
       >
         <img 
           src="https://popclub.co/_next/image?url=%2Fnew-mobile-hero.png&w=1920&q=75" 
@@ -57,7 +57,7 @@ export const CreditCard3DAnimation: React.FC = () => {
           referrerPolicy="no-referrer"
         />
         {/* Red-orange glow beneath (now inside cardRef to move with it) */}
-        <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-4/5 h-12 bg-primary/30 blur-[50px] rounded-full -z-10" />
+        <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 w-4/5 h-20 bg-primary/30 blur-[80px] rounded-full -z-10" />
       </div>
     </div>
   );
